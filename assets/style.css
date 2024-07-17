@@ -112,13 +112,16 @@ a {
 
 .circle-img {
   height: 200px;
-  border-radius: 80px;
+  border-radius: 50%;
+  width: 200px;
+  object-fit: cover;
 }
 
 @media (max-width: 540px) {
   .circle-img {
     height: 150px;
-    border-radius: 75px;
+    width: 150px;
+    border-radius: 50%;
   }
 }
 
