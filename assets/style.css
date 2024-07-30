@@ -16,10 +16,10 @@ body {
 
 @keyframes bg-animation {
   0% {
-    background-position: left;
+      background-position: left;
   }
   100% {
-    background-position: right;
+      background-position: right;
   }
 }
 
@@ -42,29 +42,29 @@ body {
 
 @media (max-width: 960px) {
   .container {
-    width: 90%;
-    max-width: 700px;
+      width: 90%;
+      max-width: 700px;
   }
 }
 
 @media (max-width: 720px) {
   .container {
-    width: 90%;
-    max-width: 500px;
+      width: 90%;
+      max-width: 500px;
   }
 }
 
 @media (max-width: 540px) {
   .container {
-    width: 90%;
-    max-width: 400px;
+      width: 90%;
+      max-width: 400px;
   }
 }
 
 @media (max-width: 360px) {
   .container {
-    width: 95%;
-    max-width: 300px;
+      width: 95%;
+      max-width: 300px;
   }
 }
 
@@ -106,7 +106,7 @@ a {
 
 @media (max-width: 540px) {
   .white-card {
-    padding: 20px 15px;
+      padding: 20px 15px;
   }
 }
 
@@ -119,9 +119,9 @@ a {
 
 @media (max-width: 540px) {
   .circle-img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
   }
 }
 
@@ -164,23 +164,64 @@ p {
 
 @media (max-width: 540px) {
   h1 {
-    font-size: 28px;
+      font-size: 28px;
   }
 
   h2 {
-    font-size: 20px;
+      font-size: 20px;
   }
 
   p {
-    font-size: 0.9rem;
+      font-size: 0.9rem;
   }
 
   .btn-blue {
-    padding: 10px 15px;
-    font-size: 14px;
+      padding: 10px 15px;
+      font-size: 14px;
   }
 
   .inline-list i {
-    font-size: 40px;
+      font-size: 40px;
   }
+}
+
+/* Projects section */
+
+#projects {
+  background-color: #f7f9fc;
+  padding: 40px 0;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ padding: 20px;
+
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.btn-project {
+  color: white;
+  background-color: #34495e;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 10px 5px;
+
+}
+
+.btn-project:hover {
+  background-color: #8e44ad;
+  transition: ease-in 0.15s;
 }

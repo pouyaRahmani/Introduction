@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600px" height="600px" viewBox="-300 -300 600 600">
+	<rect id="frame" x="-296" y="-296" width="592" height="592" rx="80" style="fill:none; stroke:#000000; stroke-width:8;" />
+	<g id="dots" style="fill:#000000; stroke:none;">
+		<circle id="dot_tl" cx="-150" cy="-150" r="65" />
+		<circle id="dot_tr" cx="150"  cy="-150" r="65" />
+		<circle id="dot_mc" cx="0"    cy="0"    r="65" />
+		<circle id="dot_bl" cx="-150" cy="150"  r="65" />
+		<circle id="dot_br" cx="150"  cy="150"  r="65" />
+	</g>
+</svg>
